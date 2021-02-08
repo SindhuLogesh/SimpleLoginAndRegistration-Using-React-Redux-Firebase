@@ -1,0 +1,55 @@
+{
+    "name": "sample-app",
+    "version": "1.0.0",
+    "description": "sample application with react and redux",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "lint": "eslint src/**/*.{ts,tsx} --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sindhu",
+    "license": "UNLICENSED",
+    "browserslist": [
+        "last 3 and_chr versions",
+        "last 3 chrome versions",
+        "last 3 opera versions",
+        "last 3 ios_saf versions",
+        "last 3 safari versions"
+    ],
+    "dependencies": {
+        "connected-react-router": "^6.8.0",
+        "firebase": "^8.2.6",
+        "history": "^4.10.1",
+        "react": "^17.0.1",
+        "react-country-region-selector": "^3.0.2",
+        "react-dom": "^17.0.1",
+        "react-history": "^0.18.2",
+        "react-redux": "^7.2.2",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-semantic-ui-datepickers": "^2.12.0",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0",
+        "semantic-ui-css": "^2.4.1",
+        "semantic-ui-react": "^2.0.3",
+        "typescript": "^4.1.3"
+    },
+    "devDependencies": {
+        "@tsconfig/recommended": "^1.0.1",
+        "@types/react": "^17.0.1",
+        "@types/react-dom": "^17.0.0",
+        "@types/react-redux": "^7.1.16",
+        "@types/react-router": "^5.1.11",
+        "@types/react-router-dom": "^5.1.7",
+        "@typescript-eslint/eslint-plugin": "^4.14.2",
+        "@typescript-eslint/parser": "^4.14.2",
+        "eslint": "^7.19.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-react": "^7.22.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "parcel": "^1.12.4",
+        "prettier": "^2.2.1"
+    }
+}
